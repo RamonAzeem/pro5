@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    background: rgb(255, 255, 110);
+  }
+  .con{
+    padding-left: 30px;
+    background: white;
+  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 370px;
+    height: 550px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       box-shadow: 5px 5px 5px black;
+       border-radius: 15px;
+    
+  }
+  .con-1 img{
+    border-radius: 8px;
+  }
+  .con-2 .tag{
+    font-weight: bolder;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 6px;
+  }
+  .tag-1{
+    font-weight: bold;
+
+  }
+  .title{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  .comment{
+    width: 300px;
+  }
+  .con-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .name p{
+    font-weight: bolder;
+  }
+</style>
+<body>
+  <div class="con">
+    <div class="con-1">
+      <img src="assets/images/illustration-article.svg" alt="">
+    </div>
+    <div class="con-2">
+      <div class="tag">
+        Learning
+      </div>
+      <div class="tag-1">
+        <p>Publish 21 Dec 2023</p>
+      </div>
+      <div class="title">
+        <h1>HTML & CSS foundations</h1>
+      </div>
+      <div class="comment">
+        These language are the backbone of every 
+        website, defining structure, content, and
+        presentation.
+      </div>
+
+    </div>
+    <div class="con-3">
+      <div class="img">
+        <img src="assets/images/image-avatar.webp" alt="">
+      </div>
+      <div class="name"><p>Greg Hooper</p></div>
+    </div>
+  </div>
+  
+</body>
+</html>
